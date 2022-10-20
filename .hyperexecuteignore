@@ -5,3 +5,4 @@ hyperexecute.exe
 *.log
 artifacts
 logs
+target

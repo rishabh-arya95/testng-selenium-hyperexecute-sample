@@ -5,7 +5,7 @@ runson: ${matrix.os}
 matrix:
   tests: ["Test_1", "Test_2"]
   browser: ["Chrome"]
-  os: ["mac"]
+  os: ["mac15"]
 
 pre:
   - mvn dependency:resolve

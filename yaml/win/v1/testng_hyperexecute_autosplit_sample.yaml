@@ -19,3 +19,11 @@ retryOnFailure: true
 maxRetries: 1
 
 jobLabel: [selenium-testng, win, v1, autosplit]
+
+
+regionConfig:
+  vm:
+    - os: win
+      platform: azure
+      queueName: stage-hyperexecute-linux-eastus-queue-v1
+      region: westus

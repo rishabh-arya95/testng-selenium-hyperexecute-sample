@@ -6,7 +6,7 @@ testSuiteStep: 150
 runson: ${matrix.os}
 autosplit: true
 concurrency: 4
-parallelism: 1
+parallelism: 3
 
 matrix:
   os: [mac, win, linux]
@@ -56,3 +56,8 @@ partialReports:
   frameworkName: extent
 
 jobLabel: [selenium-testng, hybrid]
+
+regionConfig:
+  storage:
+    enabled: true
+    region: "westus"

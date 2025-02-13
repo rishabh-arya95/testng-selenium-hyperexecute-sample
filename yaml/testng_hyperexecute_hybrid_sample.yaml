@@ -57,7 +57,7 @@ partialReports:
 
 jobLabel: [selenium-testng, hybrid]
 
-regionConfig:
-  storage:
-    enabled: true
-    region: "westus"
+# regionConfig:
+#   storage:
+#     enabled: true
+#     region: "westus"

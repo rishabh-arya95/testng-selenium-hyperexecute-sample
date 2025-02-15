@@ -57,7 +57,8 @@ partialReports:
 
 jobLabel: [selenium-testng, hybrid]
 
-# regionConfig:
-#   storage:
-#     enabled: true
-#     region: "westus"
+globalPre:
+  mode: remote
+  commands:
+    - echo "global pre"
+
